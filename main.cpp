@@ -83,14 +83,14 @@ cout<<"currentStudents:"<<currentStudents<<endl;
 
 // ==================== Main Function ====================
 int main() {
-   cout<<"course:CS101"<<endl;
+cout<<"course:CS101"<<endl;
     student s1=new student();
-    
+
     instructor i1= new instructor();
-    
+
     course c1=new course();
-    
-    
+
+
 cin>>name;
 cin>>id;
 cin>>yearLevel;
@@ -101,6 +101,20 @@ cin>>courseCode;
 cin>>courseName;
 cin>>maxStudents;
 cin>>currentStudents;
+
+cout>>"instructor info:">>endl;
+cout>>"name:">>name>>endl;
+cout>>"department:">>department>>endl;
+cout>>"experienceYears:">>experience>>endl;
+
+
+cout>>"student info:">>endl;
+cout>>"name:">>name>>endl;
+cout>>"year:">> experienceYears>>endl;
+cout>>"major:">>major>>endl;
+
+
+
    
     
     return 0;
